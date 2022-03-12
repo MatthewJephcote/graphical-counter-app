@@ -1,3 +1,35 @@
+# Graphical Counter App #
+
+## Instructions ##
+
+    1. Press '+' to add a count.
+    2. Press '-' to subtract a count.
+    3. Press 'RESET' to 'zero' the counter.
+    
+## Tech Featured & Celebrated In This Project ##
+
+I created this app using React. It is styled using pure CSS. I have also made the app responsive, using Media Queries for use on both mobile and desktop devices.
+
+My counter features a large multi-digit seven-segment display, which I both designed and styled from scratch.
+
+I wanted the counter to neither output negative numbers (when pressing '-' button when at 'zero') nor loop round to 'zero' (after reaching the highest number it could reach, i.e. 99999). Therefore, I used logic and maths to prevent both outcomes.
+
+I was proud of my solution of converting count number variables into string variables (via a preliminary conversion into a decimal number) in order to create a string object, from which I could extract the data needed to determine which digit-segments are displayed to the user.
+
+I'm particularly pleased with my seven-segment display design, in terms of innovation, functionality and styling.
+
+## Taking the project forward... ##
+
+A challenge I found in building this app was that of how to reduce the amount of code I wrote in my JSX to determine which styles would be applied to produce the dynamic seven-segment-display output. One of the things that I find exciting about React is its scope for 'reusabilty'. Indeed, I was able to efficiently reuse the CSS classes that outputed the various segments of the multi-digit seven-segment display. However, I believe that, as I deepen my understanding of both Vanilla JavaScript and React, I might be able to streamline the JSX code involved in selecting those styles, through further 'componentisation' involving props and possibly using JavaScript to iteratively loop through my ternary statements and then use the results of the comparisons to access specific CSS classes stored in objects/arrays.
+
+
+
+
+
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
