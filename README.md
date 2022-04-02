@@ -22,11 +22,7 @@ I'm particularly pleased with my seven-segment display design, in terms of innov
 
 A challenge I found in building this app was that of how to reduce the amount of code I wrote in my JSX to determine which styles would be applied to produce the dynamic seven-segment-display output. One of the things that I find exciting about React is its scope for 'reusabilty'. Indeed, I was able to efficiently reuse the CSS classes that outputed the various segments of the multi-digit seven-segment display. However, I believe that, as I deepen my understanding of both Vanilla JavaScript and React, I might be able to streamline the JSX code involved in selecting those styles, through further 'componentisation' involving props and possibly using JavaScript to iteratively loop through my ternary statements and then use the results of the comparisons to access specific CSS classes stored in objects/arrays.
 
-
-
-
-
-
+![Screenshot (36)](https://user-images.githubusercontent.com/96934081/161367645-813763db-41af-4ebd-951c-749f5f5d8e79.png)
 
 
 
