@@ -1,5 +1,5 @@
 # Graphical Counter App #
-
+![Screenshot (35)](https://user-images.githubusercontent.com/96934081/161367582-e2bb38d3-7ea1-452f-a7a7-788f7b0a904c.png)
 ## Instructions ##
 
     1. Press '+' to add a count.
