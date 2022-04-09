@@ -21,8 +21,7 @@
   gap: 40px;
   background-color: #000;
   padding: 40px;
-  border-width: 10px;
-  border-style: inset;
+  border: 10px inset;
   border-radius: 20px;
 }
 .buttons-panel {
@@ -30,8 +29,7 @@
   justify-content: space-around;
   background-color: #696969;
   padding: 20px;
-  border-width: 10px;
-  border-style: inset;
+  border: 10px inset;
   border-radius: 20px;
 }
 /*creating the seven-segment display:*/
@@ -134,8 +132,8 @@ button {
   font-size: 2rem;
   font-weight: bold;
   height: 4rem;
-  border: 10px;
-  border-style: outset;
+  border: 10px outset;
+  padding: 0;
   cursor: pointer;
 }
 .decrement {
@@ -171,26 +169,47 @@ button {
 .reset {
   background-color: #3366ff;
   width: 10rem;
-  font-weight: lighter;;
+  font-weight: lighter;
   border-radius: 10px;
 }
 /*making app responsive for mobile devices: */
-@media (max-width: 1024px) {
-    .counter-housing {
+@media screen and (max-width: 1024px) and (orientation: portrait){
+  .counter-housing {
     flex-direction: row;
-    gap: 40px;
-    }
-    .display-panel {
+    gap: 10px;
+    padding: 10px;
+  }
+  .display-panel {
     flex-direction: column;
     align-items: center;
-    }
-    .buttons-panel {
+    gap: 10px;
+    padding: 10px;
+  }
+  .buttons-panel {
     flex-direction: column-reverse;
     justify-content: center;
     align-items: center;
     gap: 120px;
-    }
-    .reset {
+    padding: 0;
+  }
+  .reset {
     transform: rotate(90deg);
-    }
+    width: 5rem;
+    font-size: 1rem;
+    font-weight: bolder;
+  }
+}
+@media screen and (max-width: 1024px) and (orientation: landscape) {
+  .counter-housing {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+  }
+  .display-panel {
+    gap: 10px;
+    padding: 10px;
+  }
+  .buttons-panel {
+    padding: 10px;
+  }
 }
