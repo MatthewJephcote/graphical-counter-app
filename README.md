@@ -1,5 +1,5 @@
 # Graphical Counter App #
-![Screenshot (35)](https://user-images.githubusercontent.com/96934081/161367582-e2bb38d3-7ea1-452f-a7a7-788f7b0a904c.png)
+![Screenshot (49)](https://user-images.githubusercontent.com/96934081/162569034-77ca5f44-f47a-44f3-9a56-f6b88444c8ba.png)
 ## Instructions ##
 
     1. Press '+' to add a count.
@@ -18,11 +18,15 @@ I was proud of my solution of converting count number variables into string vari
 
 I'm particularly pleased with my seven-segment display design, in terms of innovation, functionality and styling.
 
+![Screenshot (48)](https://user-images.githubusercontent.com/96934081/162569084-74525b28-7c0a-44ef-a976-5d6d0169f8ab.png)
 ## Taking the project forward... ##
 
 A challenge I found in building this app was that of how to reduce the amount of code I wrote in my JSX to determine which styles would be applied to produce the dynamic seven-segment-display output. One of the things that I find exciting about React is its scope for 'reusabilty'. Indeed, I was able to efficiently reuse the CSS classes that outputed the various segments of the multi-digit seven-segment display. However, I believe that, as I deepen my understanding of both Vanilla JavaScript and React, I might be able to streamline the JSX code involved in selecting those styles, through further 'componentisation' involving props and possibly using JavaScript to iteratively loop through my ternary statements and then use the results of the comparisons to access specific CSS classes stored in objects/arrays.
 
-![Screenshot (36)](https://user-images.githubusercontent.com/96934081/161367645-813763db-41af-4ebd-951c-749f5f5d8e79.png)
+![Screenshot (47)](https://user-images.githubusercontent.com/96934081/162569116-8860a3c4-6804-46db-926c-11ff8a8c60c1.png)
+
+
+
 
 
 
